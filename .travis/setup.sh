@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Boost install
 if [ -e $HOME/local ]; then
     echo "using cache!"
