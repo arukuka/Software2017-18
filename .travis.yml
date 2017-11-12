@@ -53,7 +53,7 @@ before_deploy:
   - rm -fv Software2017-18/.gitignore
   - rm -rfv Software2017-18/.travis
   - rm -fv Software2017-18/.travis.yml
-  - tar -zcvf "${HOME}/deploy/Software2017-18_${TRAVIS_TAG}_${ARCH}-${NAME}.tar.gz" $HOME/deploy/Software2017-18
+  - tar -zcvf "${HOME}/deploy/Software2017-18_${TRAVIS_TAG}_${ARCH}-${NAME}.tar.gz" ./Software2017-18
 
 deploy:
   provider: releases
